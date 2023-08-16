@@ -1,0 +1,28 @@
+.wrap{width: 1440px; margin: 0 auto; padding: 0 120px;}
+.pageWrap{margin: 0 102px;}
+
+.mainText{margin-top: 100px; text-align: center; margin-bottom: 80px;}
+.mainText p{font-size: 40px; font-weight: 700;}
+
+.squareBox a{width: 305px; height: 305px;}
+.squareBox img{width: 305px; height: 305px; object-fit: cover; border: 1px solid #E7E7E7;}
+.rectangleBox a{width: 660px; height: 305px;}
+.rectangleBox img{width: 660px; height: 305px; border: 1px solid #E7E7E7;}
+.publishingBox a{width: 488px; height: 275px;}
+.publishingBox img{width: 488px; height: 275px; border: 1px solid #E7E7E7;}
+
+
+/* 마케팅 */
+.firMarketing{display: flex; justify-content: space-between;}
+.secMarketing{display: flex; justify-content: space-between;}
+
+.infoText{margin-top: 20px;}
+.infoSub{color: #454545; font-size: 12px; font-weight: 500; margin-bottom: 7px;}
+.infoMain{font-size: 16px; font-weight: 500; margin-bottom: 60px;}
+.infoMain:hover{text-decoration: underline; text-underline-offset : 5px; cursor: pointer;}
+
+/* 디자인 */
+.designContents{display: grid; grid-template-columns: repeat(3,1fr);}
+
+/* 퍼블리싱 */
+.publishingContents{display: grid; grid-template-columns: repeat(2,1fr)}

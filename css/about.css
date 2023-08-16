@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'KBO-Dia-Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic.woff') format('woff');
+    font-weight: 300, 500, 700;
+    font-style: normal;
+}
+
+.wrap{width: 1400px; margin: 0 auto; display: flex; gap: 120px;}
+
+.aboutLeft{margin-left: 280px;}
+.aboutRight{margin-top: 140px;}
+
+.profile{width: 267px; height: 348px; margin-left: 20px; border-radius: 135px; background-color: #d9d9d9; margin-top: 60px;}
+
+.aboutLeft > .profileText > .profileMain {margin-top: 50px;}
+.aboutLeft > .profileText > .profileMain{width : 305px; display: block; border-bottom: 1px solid #e7e7e7;}
+
+.profileMain{width : 407px; display: block; border-bottom: 1px solid #e7e7e7;}
+.profileMain p{color: #1746A2; font-weight: 700; font-size: 14px; padding-bottom: 15px;}
+/* .profileMain p{color: #1746A2; font-family: 'KBO-Dia-Gothic'; font-weight: 700; font-size: 14px; padding-bottom: 15px;} */
+
+.profileSub{padding-top: 25px; padding-left: 10px; margin-bottom: 60px;}
+.profileSub p{padding-bottom: 20px; font-weight: 300;}
+.profileSub p span{margin-left: 3px;}
+/* .profileSub p{padding-bottom: 20px; font-family: 'KBO-Dia-Gothic'; font-weight: 300;} */
+.tool{padding-top: 25px; padding-left: 10px; display: flex; gap: 50px;}
