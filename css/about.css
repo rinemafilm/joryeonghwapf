@@ -24,3 +24,8 @@
 .profileSub p span{margin-left: 3px;}
 /* .profileSub p{padding-bottom: 20px; font-family: 'KBO-Dia-Gothic'; font-weight: 300;} */
 .tool{padding-top: 25px; padding-left: 10px; display: flex; gap: 50px;}
+.toolBox{display: flex;}
+.toolSkill{margin-left: 37px; margin-top: 5px;}
+.toolSkill > ul {display: flex; gap: 10px; margin-top: 27px;}
+.toolSkill > ul > li{width: 12px; height: 12px; border-radius: 30px; border: 1px solid #e7e7e7; background-color: #F6F6F6;}
+.toolSkill > ul > .skill{width: 12px; height: 12px; border-radius: 30px; border: 1px solid #F6F6F6; background-color: #9BA4B5;}
