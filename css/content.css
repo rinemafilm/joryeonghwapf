@@ -6,11 +6,17 @@
 
 .squareBox a{width: 305px; height: 305px;}
 .squareBox img{width: 305px; height: 305px; object-fit: cover; border: 1px solid #E7E7E7;}
+.squareBox img:hover{transform: translateY(-3px); box-shadow: 0px 0px 10px 0px #E9E9E9;}
+
 .rectangleBox a{width: 660px; height: 305px;}
 .rectangleBox img{width: 660px; height: 305px; border: 1px solid #E7E7E7;}
+.rectangleBox img:hover{transform: translateY(-3px); box-shadow: 0px 0px 10px 0px #E9E9E9;}
+
 .publishingBox a{width: 488px; height: 275px;}
 .publishingBox img{width: 488px; height: 275px; border: 1px solid #E7E7E7;}
+.publishingBox  img:hover{transform: translateY(-3px); box-shadow: 0px 0px 10px 0px #E9E9E9;}
 
+.pageWrap{margin-bottom: 100px;}
 
 /* 마케팅 */
 .firMarketing{display: flex; justify-content: space-between;}
@@ -26,3 +32,41 @@
 
 /* 퍼블리싱 */
 .publishingContents{display: grid; grid-template-columns: repeat(2,1fr)}
+
+.icon{margin-top: 85px; display: flex; justify-content: space-between; align-items: center;}
+.category{display: flex; gap: 25px; align-items: center;}
+.category p{font-size: 16px;}
+.category::before{width: 16px; height: 16px; background: #1746A2; border-radius: 30px; display: inline-block; content: '';}
+
+.plusText{font-size: 48px; color: #1746A2; font-weight: 700; text-align: center; margin-top: 20px;}
+.pageLink{display: flex; gap: 30px; justify-content: center; text-align: center; margin-top: 40px;}
+.pageLink li a{border: 1px solid #E7E7E7; border-radius: 35px; width: 80px; height: 30px; line-height: 30px; text-align: center; display: block;}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper{margin-top: 55px;}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {background: rgb(95, 157, 247) !important;}
+
+.publishingContent{margin-top: 60px; padding-top: 30px; border-top: 1px solid #E7E7E7;}
+.miniText p{font-size: 17px; display: flex; margin-bottom: 20px;}
+.miniText p span{font-size: 17px; font-weight: 700; display: block; width: 120px; margin-right: 20px;}

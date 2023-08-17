@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JORYEONGHWA 보그 코리아</title>
+    <script src="../js/code.jquery.com_jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+    </header>
+    <div class="wrap">
+        <div class="icon">
+            <div class="arrow">
+                <a href="#" onclick="goBack()"><img src="../images/contents/arrow.png"></a>
+            </div>
+            <div class="category">
+                <p>Web Publishing</p>
+            </div>
+        </div>
+        <div class="pageWrap">
+            <div class="plusText">
+                <p>신한카드</p>
+            </div>
+            <ul class="pageLink">
+                <li><a href="https://rinemafilm.github.io/shinhancard" target="_blank">바로가기</a></li>
+                <li><a href="https://www.figma.com/file/XPkaLLmgihI3lE0YqDwB2m/%EC%8B%A0%ED%95%9C%EC%B9%B4%EB%93%9C?type=design&node-id=0%3A1&mode=design&t=nXvp3I5zxtbrnvsk-1" target="_blank">Figma</a></li>
+                <li><a href="https://github.com/rinemafilm/shinhancard.git" target="_blank">Git hub</a></li>
+            </ul>
+
+            <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true">
+                <swiper-slide><img src="../images/contents/shinhan01.png"></swiper-slide>
+                <swiper-slide><img src="../images/contents/shinhan02.png"></swiper-slide>
+            </swiper-container>
+
+            <div class="publishingContent">
+                <div class="miniText">
+                    <p><span>개인 프로젝트</span>신한카드 웹 사이트 퍼블리싱</p>
+                    <p><span>카테고리</span>Web Publishing</p>
+                    <p><span>사용 프로그램</span>Figma, Visual Studio Code</p>
+                    <p><span>사용 언어</span>HTML, CSS, JavaScript</p>
+                    <p><span>퍼블리싱 기여도</span>100%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+</body>
+</html>
