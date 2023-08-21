@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/content.css">
     <link rel="stylesheet" href="../css/common.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body>
     <header>
@@ -23,20 +25,20 @@
             <div class="designContents">
                 <div class="hotelLogo">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/hotelLogo.png"></a>
+                        <a data-fancybox href="../images/contents/hotelLogo2.png"><img src="../images/contents/hotelLogo2.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
                             <p>호텔 로고 디자인</p>
                         </div>
                         <div class="infoMain">
-                            <a href=""><p>센텀시티호텔</p></a>
+                            <a href=""><p>센텀뉴시티호텔</p></a>
                         </div>
                     </div>
                 </div>
                 <div class="postcard">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/postcard.jpg"></a>
+                        <a data-fancybox href="../images/contents/postcard.jpg"><img src="../images/contents/postcard.jpg"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -49,7 +51,7 @@
                 </div>
                 <div class="ticket">
                     <div class="squareBox">
-                        <a href="../pages/content/content.html"><img src="../images/contents/ticket.png"></a>
+                        <a data-fancybox href="../images/contents/ticket.png"><img src="../images/contents/ticket.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -62,7 +64,7 @@
                 </div>
                 <div class="lee">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/leejongsuk.png"></a>
+                        <a data-fancybox href="../images/contents/leejongsuk.png"><img src="../images/contents/leejongsuk.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -75,7 +77,7 @@
                 </div>
                 <div class="our">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/our.png"></a>
+                        <a data-fancybox href="../images/contents/our.png"><img src="../images/contents/our.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -88,7 +90,7 @@
                 </div>
                 <div class="cardnews">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/cardnews.png"></a>
+                        <a data-fancybox href="../images/contents/cardnews.png"><img src="../images/contents/cardnews.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -101,7 +103,7 @@
                 </div>
                 <div class="calendar">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/calendar.png"></a>
+                        <a data-fancybox href="../images/contents/calendar.png"><img src="../images/contents/calendar.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -114,7 +116,7 @@
                 </div>
                 <div class="cup">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/cup.png"></a>
+                        <a data-fancybox href="../images/contents/cup.png"><img src="../images/contents/cup.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -127,7 +129,7 @@
                 </div>
                 <div class="poster">
                     <div class="squareBox">
-                        <a href=""><img src="../images/contents/poster.png"></a>
+                        <a data-fancybox href="../images/contents/poster.png"><img src="../images/contents/poster.png"></a>
                     </div>
                     <div class="infoText">
                         <div class="infoSub">
@@ -141,5 +143,11 @@
             </div>
         </div>
     </div>
+
+    <script>
+        Fancybox.bind("[data-fancybox]", { 
+            // Your options go here 
+        });
+    </script>
 </body>
 </html>
